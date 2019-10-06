@@ -1,0 +1,30 @@
+.news-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 40px 0;
+}
+
+.news-list-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.news-list-btn{
+  width: 280px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0603ff;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.news-list-btn:hover{
+  text-decoration: underline;
+}
